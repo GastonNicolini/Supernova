@@ -1,0 +1,50 @@
+$background-color: #141414;
+$main-text-color: white;
+$main-text-font: 'Montserrat', sans-serif;
+$placeholder-color: #b1b1b1;
+
+.main-content {
+    background-color: $background-color;
+    color: $main-text-color;
+    margin: 0;
+}
+
+/* Services CSS */
+.main-content--services {
+    @extend.main-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    div{
+        padding: 10px;
+    }
+
+    table{
+        color: rgb(41, 41, 41);
+        background-color: #cccccc;
+        
+    }
+
+    th{
+        background-color:black;
+        color: white;
+        border: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    tr{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    ol, ul{
+        padding: 10px;
+    }
+}

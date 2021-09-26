@@ -1,0 +1,54 @@
+$main-font: 'Roboto', sans-serif;
+
+// Mixin Functions
+@mixin fontProperties ($font-family, $font-weight, $font-size){
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+}
+/* Team CSS */
+
+.main-grid__team{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.main-grid__team-office{
+    grid-template-columns: auto auto;
+    padding: 0 0 30px 0;
+}
+
+.carousel-inner img {
+    padding: 0 7rem 0 7rem;
+}
+
+.carousel-item img {
+    overflow: hidden;
+}
+
+@media (max-width: 1024px){
+    .main-grid__team{
+        grid-template-columns: auto;
+    }
+    .main-grid__team-office{
+        grid-template-columns: auto;
+    }
+    .carousel-inner img {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1230px){
+    .main-grid__team{
+        grid-template-columns: auto auto;
+    }
+}
+
+.main-grid__team p{
+    @include fontProperties($main-font, 300, 18px);
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,42 @@
+$font-h: 'Montserrat', sans-serif;
+$font-weight: 300;
+
+/* About CSS */
+.about-main-content{
+    background-color:  #141414;
+    color: white;
+    margin: 0;
+    padding: 1rem 3rem 18rem 3rem;
+
+    div{
+        padding: 30px;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        font-family: $font-h;
+        font-weight: $font-weight;
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    h3{
+        font-family: $font-h;
+        font-weight: $font-weight; 
+        font-size: 27px;
+        padding-bottom: 5px;
+    }
+    
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: $font-weight;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px){
+    .about-main-content{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}
