@@ -76,7 +76,7 @@ textarea::placeholder, input::placeholder {
 /* Index CSS */
 .main-content__index {
   min-height: 80vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.192)), url("../images/world.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.192)), url("images/world.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -234,7 +234,7 @@ textarea::placeholder, input::placeholder {
 .contact {
   justify-items: center;
   background-color: #141414;
-  background: linear-gradient(to right, black, rgba(0, 0, 0, 0.192)), url("../images/optical-fiber.jpg");
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0.192)), url("images/optical-fiber.jpg");
   background-size: 1920px;
   color: white;
   display: grid;
